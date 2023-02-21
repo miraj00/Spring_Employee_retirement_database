@@ -10,12 +10,14 @@
 <head>
 <meta charset="UTF-8">
 <title>Home</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link href="/style.css" rel="stylesheet" /> 
 
 <style>
 table, th, td {
   border: 1px solid;
   text-align: center;
-  margin-left: 30px;
+  margin-top: 60px;
 }
 </style>
 </head>
@@ -43,13 +45,22 @@ table, th, td {
 			</tbody>
 		</table>
 		
-		
-		
-		
-		
 		<br> <br>
-		<a href="/grades/add" class="btn btn-secondary">Add a Grade</a>
-
+		
+		<h3> To check retirement benefits, please insert Employee ID below : </h3>
+		
+		<form action="/retirement-info" method="POST">
+	    
+	    	  <br>	  
+			  <label for="id"> Enter Employee ID : </label>
+		 	  <input type="number" id="num" name="id">
+			  <br> <br>
+			  
+	    	  <input type="submit" value="Submit">
+	  		  &nbsp; &nbsp;   
+	  		  
+		</form>
+	
 </div>
 
 
