@@ -48,7 +48,8 @@ table, th, td {
 		<br> <br>
 		
 		<h3> To check retirement benefits, please insert Employee ID below : </h3>
-		
+
+<!--  Option 1 : -->		
 		<form action="/retirement-info" method="POST">
 	    
 	    	  <br>	  
@@ -61,6 +62,20 @@ table, th, td {
 	  		  
 		</form>
 	
+<!-- Option 2 : 
+
+<form action="/retirement-info">
+		<p>
+			<label for="id">Employee ID</label>
+			<input name="id" id="id" type="number" step="1" />
+		</p>
+		<p>
+			<button type="submit">View employee details</button>
+		</p>
+	</form>
+
+ -->
+
 </div>
 
 
