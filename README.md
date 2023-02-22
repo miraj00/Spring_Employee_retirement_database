@@ -37,6 +37,6 @@ https://github.com/miraj00/Spring_Employee_retirement_database.git
 ## Screenshots
 
 ![](/src/main/resources/static/Homepage.JPG) "Homepage"
-![](/src/main/resources/static/retirementpage1.JPG) "Result Page1"
-![](/src/main/resources/static/retirementpage2.JPG) "Result Page2"
-![](/src/main/resources/static/retirementpage3.JPG) "Result Page3"
+![](/src/main/resources/static/retirementpage-1.JPG) "Result Page1"
+![](/src/main/resources/static/retirementpage-2.JPG) "Result Page2"
+![](/src/main/resources/static/retirementpage-3.JPG) "Result Page3"
