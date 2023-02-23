@@ -36,10 +36,10 @@ table, th, td {
 			<tbody>
 				<c:forEach var="employeelist" items="${employee}">
 				<tr>
-					<td>${employeelist.id}</td>				
-					<td>${employeelist.firstName}</td>
-					<td>${employeelist.age}</td>
-					<td>${employeelist.salary}</td>
+					<td><c:out value="${employeelist.id}" /></td>				
+					<td><c:out value="${employeelist.firstName}" /></td>
+					<td><c:out value="${employeelist.age}" /></td>
+					<td><c:out value="${employeelist.salary}" /></td>
 				</tr>
 				</c:forEach>
 			</tbody>
